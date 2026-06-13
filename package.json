@@ -1,14 +1,20 @@
 {
-  "name": "apisun",
+  "name": "baccarat-api-server",
   "version": "1.0.0",
-  "description": "Tai Xiu Analyzer API",
-  "main": "apisun.js",
+  "description": "Baccarat API server that scrapes data from aibcr.me",
+  "main": "bcr.js",
   "scripts": {
-    "start": "node apisun.js"
+    "start": "node bcr.js",
+    "dev": "nodemon bcr.js"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.2",
-    "ws": "^8.18.3"
-  }
+    "axios": "^1.6.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": ["baccarat", "api", "scraper", "crawler"],
+  "author": "",
+  "license": "MIT"
 }
